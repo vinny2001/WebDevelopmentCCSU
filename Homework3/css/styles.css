@@ -1,0 +1,20 @@
+
+/*Correct Formatting of the 'bet' sub-section*/
+#bet, #bet h3{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Precise sizing of the spin button*/
+#spin-btn{
+    text-align: left;
+    height: 80px;
+    width: 130px;
+}
+
+/* Preserves outer div container margin in a mobile view */
+@media (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+}
