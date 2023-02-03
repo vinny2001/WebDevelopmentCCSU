@@ -1,0 +1,36 @@
+
+body{
+    background-color: #fafafa;
+    padding-top: 40px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+}
+
+.footer-p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+@media (max-width: 1000px){
+    #engineering-img, #scholar-img{
+        width: 85%;
+        margin-top: 40px;
+    }
+    #secure-img{
+        margin-bottom: 40px;
+        width: 80%;
+    }
+}
+
+/* Forces footer divs to stay on respective sides when screen is < size-small */
+
+@media (max-width: 600px){
+    #footer-left, #footer-right{
+        width: 50%;
+    }
+}
